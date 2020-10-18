@@ -29,6 +29,9 @@ def test_automation_testing_add_to_cart_feature(browser):
     # And the user clicks the Proceed to checkout button
     pop_up_page.proceed_to_checkout()
 
+    # And the user can see the right item in the cart
+    cart_page.selected_item_in_cart()
+
 
 
 
